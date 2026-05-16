@@ -158,7 +158,9 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "@parcel/watcher",
-      "@swc/core"
+      "@swc/core",
+      "@prisma/engines",
+      "prisma"
     ]
   }
 }
