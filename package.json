@@ -5,6 +5,12 @@
   "author": "Umami Software, Inc. <hello@umami.is>",
   "license": "MIT",
   "homepage": "https://umami.is",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core"
+    ]
+  }
   "repository": {
     "type": "git",
     "url": "https://github.com/umami-software/umami.git"
